@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node api/contact.js",
-    "vercel-build": "npm install"
+    "dev": "vercel dev"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
     "express": "^4.21.2",
     "mongoose": "^8.9.2",
     "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
